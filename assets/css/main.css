@@ -1,0 +1,14 @@
+/* Reset CSS */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    font-size: 100%;
+    line-height: 1;
+}
