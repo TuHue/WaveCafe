@@ -1,13 +1,27 @@
 // Main
 $(document).ready(function() {
-
+    //start main
+    startMain()
         // Play/Pause button for video background
-        playOrPauseVideoBackground();
+    playOrPauseVideoBackground();
 
-        // Active for Menu Drinks 
-        changeActiveTag();
-    })
-    //Function
+    // Active for Menu Drinks 
+    changeActiveTag();
+})
+
+function startMain() {
+    // hide page 
+    $(".content__row").hide();
+    $("#drink").hide();
+
+    // hide tab drink
+    $(".drink__products--show").hide();
+    $("#cold").show();
+
+}
+
+
+//Function
 function playOrPauseVideoBackground() {
     const btn = $("#wrapper__control");
     const video = document.getElementById("wrapper__video");
@@ -27,6 +41,11 @@ function playOrPauseVideoBackground() {
 function openTab(id) {
     $(".drink__products--show").hide();
     $("#" + id).show();
+}
+
+function startMain() {
+    $(".drink__products--show").hide();
+    $("#cold").show();
 }
 
 function changeActiveTag() {
