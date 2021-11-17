@@ -106,13 +106,38 @@
 #about,
 #special,
 #contact {
-    background-color: white;
     height: 30px;
     position: absolute;
     right: 70px;
     display: none;
 }
 
+
+/* Drink */
+
 #drink {
     display: block;
+}
+
+#drink__menu {
+    width: 100%;
+    height: 80px;
+}
+
+#drink__products {
+    margin-top: 20px;
+    height: 600px;
+    overflow: auto;
+}
+
+
+/* Footer */
+
+#footer {
+    width: 400px;
+    height: 30px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding: 5px 10px
 }
