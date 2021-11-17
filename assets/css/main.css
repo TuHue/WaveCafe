@@ -25,3 +25,64 @@
     padding: 10px;
     cursor: pointer;
 }
+
+
+/* Container */
+
+#container {
+    padding: 30px;
+    display: flex;
+    flex: row;
+}
+
+
+/* Site Header */
+
+#siteHeader {
+    width: 44%;
+}
+
+#siteHeader__logo {
+    width: 500px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#siteHeader__menu {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.siteHeader__item {
+    width: 240px;
+    height: 100px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 25px;
+}
+
+.siteHeader__item:hover {
+    background-color: var(--color-blue);
+    color: white;
+    cursor: pointer;
+}
+
+.siteHeader__item:hover i,
+.siteHeader__item:hover span {
+    color: white;
+}
+
+.siteHeader--active {
+    background-color: var(--color-blue);
+}
+
+.siteHeader--active i,
+.siteHeader--active span {
+    color: white
+}

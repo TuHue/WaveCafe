@@ -1,3 +1,8 @@
+:root {
+    --color-blue: #099;
+}
+
+
 /* Reset CSS */
 
 * {
@@ -8,8 +13,6 @@
 
 html {
     scroll-behavior: smooth;
-    font-size: 100%;
-    line-height: 1;
 }
 
 body {
@@ -40,4 +43,41 @@ p {
 
 h2 {
     margin-top: 0;
+}
+
+.title {
+    display: inline;
+    letter-spacing: 2px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #099;
+}
+
+.title--big {
+    font-size: 2.3rem;
+}
+
+.title-weight {
+    font-weight: bold
+}
+
+.title--italic {
+    font-style: italic;
+}
+
+.background-white {
+    background-color: white;
+}
+
+.icon {
+    color: #099;
+}
+
+.icon--big {
+    margin: 30px;
+    font-size: 3.4rem;
+}
+
+.icon--small {
+    margin-right: 25px;
+    font-size: 1.5rem;
 }
