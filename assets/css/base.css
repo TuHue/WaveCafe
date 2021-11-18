@@ -61,6 +61,10 @@ h2 {
     font-style: italic;
 }
 
+.title-center {
+    text-align: center;
+}
+
 .background--white {
     background-color: white;
 }
